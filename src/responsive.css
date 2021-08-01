@@ -1,0 +1,195 @@
+@media (max-width: 1040px) {
+  header {
+    padding: 10px 20px;
+  }
+
+  header.sticky {
+    padding: 10px 20px;
+  }
+  header .navigation {
+    display: none;
+  }
+  header .navigation.active {
+    width: 100%;
+    height: calc(100% - 68px);
+    position: fixed;
+    top: 68px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+  }
+  header .navigation li {
+    margin-left: 0;
+  }
+  header .navigation li a {
+    text-decoration: none;
+    color: #111;
+    font-size: 1.6em;
+  }
+  header button {
+    background: none;
+    background-position: center;
+    color: #fff;
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    padding: 0.1em;
+  }
+
+  header.sticky .menuToggle {
+    filter: invert(1);
+  }
+  section {
+    padding: 80px 20px;
+  }
+  .banner .content h2 {
+    font-size: 1.3em;
+  }
+  .animated-text h3 {
+    font-size: 2em;
+  }
+  .btn {
+    font-size: 0.8em;
+    padding: 8px 8px;
+    margin-top: 15px;
+  }
+  .section-title {
+    font-size: 1.8em;
+  }
+  .about .content {
+    flex-direction: column;
+  }
+  .about .content .column {
+    position: relative;
+    width: 100%;
+  }
+  .about .content .col-right {
+    margin-top: 40px;
+  }
+  .about .content .col-left .img-card {
+    width: 67%;
+    min-height: 410px;
+  }
+  .skill .content {
+    flex-direction: column;
+  }
+  .skill .content .column {
+    position: relative;
+    width: 100%;
+  }
+  .skill .content .col-right {
+    margin-top: 40px;
+  }
+  .skill .content .col-right .box {
+    width: 500px;
+  }
+  .project .item {
+    flex-direction: column;
+  }
+  .project .item .left {
+    width: 100%;
+  }
+  .project .item .right {
+    width: 90%;
+    margin-left: 0;
+    margin-top: -150px;
+  }
+  .project .item:nth-child(even) {
+    flex-direction: column;
+  }
+  .project .item:nth-child(even) .left {
+    margin-left: 0;
+  }
+  .contact-form {
+    padding: 40px 60px;
+  }
+}
+
+@media (max-width: 504px) {
+  header .logo {
+       font-size: 1.5em;
+  }
+  .banner .content h2 {
+    font-size: 1em;
+  }
+  .about .content {
+    margin-top: 0px;
+  }
+  .about .content .col-left .img-card {
+    display: none;
+  }
+  .skill .content .col-right .box {
+    width: 360px;
+    height: 240px;
+  }
+  .skill .content .col-right .box .skills .graph {
+    width: 32px;
+  }
+  .about .content .column {
+    width: 100%;
+  }
+  .box .skills .name {
+    padding: 2px 1px;
+  }
+  .project .item {
+    margin-bottom: 15%;
+  }
+  .project .item .left .img {
+    height: 400px;
+  }
+  .project .item .right {
+    width: 88%;
+    padding: 2rem 1rem;
+    border-radius: 20px;
+  }
+  .project .item .right .project-sub-title {
+    margin-bottom: 1rem;
+  }
+  .project .item .right .project-title {
+    font-size: 1.3rem;
+  }
+  .project .item .right .project-desc {
+    margin-bottom: 0rem;
+  }
+  .contact .content .row .card {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .contact .content .row .card .info span {
+    font-weight: 600;
+    font-size: 0.7em;
+    
+  }
+  .contact-form {
+    padding: 30px 25px;
+  }
+  .contact .content .row .card .contact-icon {
+    
+    font-size: 2.7em;
+  }
+  @media (max-width: 360px){
+    .animated-text h3 {
+      font-size: 1.7em;
+    }
+    .banner .content h2 span {
+      font-size: 2.2em;
+    }
+
+    .skill .content .col-right .box {
+      width: 330px;
+    }
+
+    .skill .content .col-right .box .skills .graph {
+      width: 30px;
+  }
+  .box .skills .name {
+   
+    bottom: -30px;
+  }
+}
+}
