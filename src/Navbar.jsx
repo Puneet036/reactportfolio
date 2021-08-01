@@ -26,17 +26,17 @@ const Navbar = () => {
                     {toggleMenu ? <FaTimes /> : <FaBars />}
                 </button>
 
-                <ul className={toggleMenu ? "navigation active" : "navigation"}>
+                {/* <ul className={toggleMenu ? "navigation active" : "navigation"}>
                 <li><a href="#banner" onClick={handleClick} >Home</a></li>
                 <li><a href="#about"  onClick={handleClick} >About</a></li>
                 <li><a href="#skill"  onClick={handleClick} >Skills</a></li>
                 <li><a href="#project"  onClick={handleClick} >Projects</a></li>
                 <li><a href="#contact"  onClick={handleClick} >Contact</a></li>
-            </ul>
-                {/* <ul className={toggleMenu ? "navigation active" : "navigation"}>
+            </ul> */}
+                <ul className={toggleMenu ? "navigation active" : "navigation"}>
                     <li><Link exact
                         activeClass="active"
-                        to="/"
+                        to="banner"
                         spy={true}
                         smooth={true}
                         offset={-60}
@@ -84,7 +84,7 @@ const Navbar = () => {
                         onClick={handleClick}
                         activeClassName="selected"
                     >Contact</Link></li>
-                </ul> */}
+                </ul>
             </header>
         </>
     )
