@@ -85,6 +85,7 @@ const Navbar = () => {
                         activeClassName="selected"
                     >Contact</Link></li>
                 </ul>
+                
             </header>
         </>
     )

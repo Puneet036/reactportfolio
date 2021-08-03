@@ -11,6 +11,7 @@
 
 section {
   padding: 100px 200px;
+ 
 }
 
 .banner {
@@ -28,7 +29,7 @@ section {
 .banner .content {
   max-width: 800px;
   animation: moveright 1s linear 1;
-  animation-delay: 4s;
+  animation-delay: 3s;
   visibility: hidden;
   animation-fill-mode: forwards;
 }
@@ -188,22 +189,22 @@ header .logo span {
 header .navigation {
   position: relative;
   display: flex;
-  animation: movedown 1s linear 1;
-  animation-delay: 2s;
-  visibility: hidden;
-  animation-fill-mode: forwards;
+  
 }
 
 header .navigation li {
   list-style: none;
   margin-left: 30px;
+  
 }
 
 header .navigation li a {
   text-decoration: none;
   color: #fff;
   font-weight: 300;
+  
 }
+
 header button {
   display: none;
 }
